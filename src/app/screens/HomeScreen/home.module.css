@@ -1,0 +1,33 @@
+.wrapper {
+    padding: 10px;
+}
+
+.sectionText {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 2px;
+}
+
+.regularText {
+    font-size: 16px;
+    color: grey;
+    margin-bottom: 15px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+
+    flex: 1 1 150px;
+    height: 184px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 0.5px solid #5956686c;
+}
+
+.card:hover {
+    border: 0.5px solid #000;
+}
